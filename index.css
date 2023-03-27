@@ -1,0 +1,68 @@
+html{
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+/*----------NAVBAR & ANIMATION----------*/
+header {
+	opacity: 1;
+	color: #ffffff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 150px;
+	font-family: 'Montserrat', sans-serif;
+	font-variant: small-caps;
+	z-index: 1;
+    background-image: linear-gradient(to right top, #008793, #00bf72, #a8eb12);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header-title {
+	font-size: 2.5rem;
+}
+
+#header-title a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+nav li {
+	text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+nav a:hover{
+    background-color: rgba(0, 0, 0, 0.164);
+    transition: 0.5s;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+    padding: 2.2rem 1.5rem;
+    transition: 0.3s;
+}
+/*----------NAVBAR & ANIMATION----------*/
+
+/*----------ABOUT ME----------*/
+.about-me {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	text-align: center;
+	height: 85vh;
+}
+/*----------ABOUT ME----------*/
