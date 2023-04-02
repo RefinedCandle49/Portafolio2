@@ -11,7 +11,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Montserrat&family=Rubik:wght@300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
 
-    <title>Document</title>
+    <title>Portafolio</title>
 </head>
 <body>
     <header>
@@ -32,9 +32,6 @@
             </div>
             <div class="about-me-description">
                 <p>Soy un desarrollador web apasionado por el minimalismo y el diseño atractivo. Me encantan los desafíos constantes y crear soluciones fáciles para grandes problemas. Actualmente estudiando gestión de sistemas de información y aumentando mi conocimiento informático cada día.</p>
-                <div class="cv-button">
-                    <a href="">Descargar CV</a>
-                </div>
                 <div class="buttons">
                     <div id="grid-button2">
 						<div class="links-button1">
@@ -61,11 +58,69 @@
 						</div>
 					</div>
                 </div>
+				<div class="cv-button">
+                    <a href="">Descargar CV</a>
+                </div>
             </div>
         </div>
         <div id="grid2">
             <img src="img/imagen-perfil.jpg" alt="" class="home-image">
         </div>
     </section>
+	<section class="projects">
+
+	</section>
+	<section class="contáctame" id="contact">
+		<div class="contact-title">
+			<h1>Contacto</h1>
+		</div>
+		<div class="contact-grid">
+			<div class="contact-information">
+				<h2>¿Tienes alguna pregunta?</h2>
+				<h3>¡No dudes en escribirme!</h3>
+				<p>valdezvargaskevin@gmail.com</p>
+				<p>Teléfono: +51919513162</p>
+				<p>Lima, Perú</p>
+				<div class="buttons">
+                    <div id="grid-button2">
+						<div class="links-button1">
+							<a href="" class="tooltip">
+								<span class="tooltiptext">Enlace a Linkedin</span>
+								<img src="icons/linkedin.svg" alt="linkedin icon">
+							</a>
+						</div>
+					</div>
+					<div id="grid-button3">
+						<div class="links-button2">
+							<a href="" class="tooltip">
+								<span class="tooltiptext">Enlace a Github</span>
+								<img src="icons/github.svg" alt="github icon">
+							</a>
+						</div>
+					</div>
+					<div id="grid-button4">
+						<div class="links-button3">
+							<a href="mailto:valdezvargaskevin@gmail.com" class="tooltip">
+								<span class="tooltiptext">Mandar un correo</span>
+								<img src="icons/gmail.svg" alt="github icon">
+							</a>
+						</div>
+					</div>
+                </div>
+			</div>
+			<div class="form">
+				<form name="contact" action="/sucess.html" method="POST" data-netlify="true">
+					<label>Nombre: <input type="text" name="name" /></label>
+					<label>Correo: <input type="email" name="email" /></label>
+					<label>Asunto: <input type="text" name="subject" /></label>
+					<label>Mensaje: <textarea name="message" placeholder="Escribe tu mensaje aquí"></textarea></label>
+					<button type="submit">Enviar</button>
+				</form>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<p>© 2023 Kevin Valdez. Todos los derechos reservados.</p>
+	</footer>
 </body>
 </html>

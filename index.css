@@ -16,12 +16,14 @@ header {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0px 150px;
+	padding: 0rem 10rem;
 	font-family: 'Montserrat', sans-serif;
 	/*font-variant: small-caps;*/
 	z-index: 1;
-	
 	background-attachment: fixed;
+	position: sticky;
+	top: 0;
+	background-color: white;
 }
 
 #header-title {
@@ -63,8 +65,9 @@ nav a {
 	display: grid;
 	grid-template-columns: 60% 40%;
 	text-align: left;
-	height: 85vh;
+	height: 100vh;
 	font-size: 2.3rem;
+	/*background-color: #e9e9e9;*/
 }
 
 .about-me-titles h1{
@@ -80,7 +83,7 @@ nav a {
 }
 
 .about-me-description{
-	margin: 0 15rem 0 8rem;
+	margin: 0 15rem 0rem 8rem;
 }
 /*----------ABOUT ME----------*/
 
@@ -92,26 +95,21 @@ nav a {
 
 /*----------Card1-buttons----------*/
 
-.cv-button{
+.cv-button {
 	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 	background-color: transparent;
-    background-repeat: no-repeat;
-	padding: 8px;
+	background-repeat: no-repeat;
 	border: none;
-	animation: home-button-animation 1s forwards;
-	transition: all 0.3s ease 0s;
-	width: 160px;
-	margin: auto;
+	text-align: center;
 	white-space: nowrap;
+	margin-top: 2.5rem;
 }
 
-.cv-button:hover{
-	transform: translateY(-7px);
-}
 
 .cv-button a:hover {
-	background-color: #6C66A5;
-	box-shadow: 0px 1px 15px #6C66A5;
+	background-color: #6c66a5d8;
+	box-shadow: 0px 1px 15px #6c66a5c4;
 	color: #fff;
 }
 
@@ -120,9 +118,8 @@ nav a {
 	font-size: 12px;
 	text-transform: uppercase;
 	letter-spacing: 2.5px;
-	font-weight: 500;
 	color: #000;
-	background-color: #fff;
+	background-color: rgba(0, 0, 0, 0.164);
 	border: none;
 	border-radius: 45px;
 	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -130,25 +127,35 @@ nav a {
 	cursor: pointer;
 	outline: none;
 	text-decoration: none;
+
 }
 
-.buttons{
+.buttons {
 	display: grid;
 	grid-template-columns: auto auto auto;
+	margin: auto;
+	width: 50%;
 	text-align: center;
 }
 
+.contact-information .buttons {
+	margin: 0;
+	text-align: left;
+	width: 40%;
+}
+
+
 .tooltip img {
-	width: 20%;
-	background-color: black;
+	width: 7rem;
+
 }
 
 .tooltip {
 	position: relative;
 	display: inline-block;
-  }
-  
-  .tooltip .tooltiptext {
+}
+
+.tooltip .tooltiptext {
 	visibility: hidden;
 	width: 120px;
 	background-color: rgba(0, 0, 0, 0.164);
@@ -158,28 +165,124 @@ nav a {
 	padding: 5px 0;
 	position: absolute;
 	z-index: 1;
-	bottom: 105%;
+	bottom: 95%;
 	left: 50%;
 	margin-left: -60px;
 	opacity: 0;
 	transition: opacity 0.5s;
-	font-size: 1.6rem;
-  }
-  
-  .tooltip .tooltiptext::after {
-	content: "";
-	position: absolute;
-	top: 100%;
-	left: 50%;
-	margin-left: -5px;
-	border-width: 5px;
-	border-style: solid;
-	border-color: rgba(0, 0, 0, 0.164) transparent transparent transparent;
-  }
-  
-  .tooltip:hover .tooltiptext {
+	font-size: 1.3rem;
+	white-space: nowrap;
+}
+
+.tooltip:hover .tooltiptext {
 	visibility: visible;
 	opacity: 1;
 	transition: opacity 0.6s;
-  }
+}
 /*----------Card1-buttons----------*/
+
+/*----------CONTACT----------*/
+.contáctame{
+	background-color: #e9e9e9;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.8rem;
+}
+
+.contact-title{
+	background-color: #f5f5f5;
+	text-align: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-transform: uppercase;
+	font-size: 3rem;
+	color: black;
+}
+
+.contact-grid{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	align-items: center;
+	height: 65vh;
+	padding-left: 20rem;
+	padding-right: 20rem;
+}
+
+form {
+	max-width: 50rem;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+	display: block;
+	width: 100%;
+	padding: 1rem 1rem;
+	margin-bottom: 2rem;
+	margin-top: 0.5rem;
+	font-size: 1.6rem;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	font-family: 'Montserrat', sans-serif;
+	resize: none;
+}
+
+textarea {
+	padding: 1rem 1.5rem 10rem 1rem;
+
+}
+
+button[type="submit"] {
+	display: block;
+	background-color: #333;
+	color: #fff;
+	font-size: 1.6rem;
+	padding: 1rem 1.5rem;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+}
+
+button[type="submit"]:hover {
+	background-color: #555;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+	outline: none;
+	border-color: #333;
+}
+
+.contact-information h2{
+	font-size: 7.5rem;
+	margin: 0;
+}
+
+.contact-information h3{
+	font-size: 3.5rem;
+	
+}
+/*----------CONTACT----------*/
+
+/*----------FOOTER----------*/
+footer {
+	color: black;
+	/* color de texto del footer */
+	padding: 15px;
+	/* espacio de relleno interno del footer */
+	font-size: 1.4rem;
+	/* tamaño de fuente del footer */
+	text-align: center;
+	/* alineación del contenido del footer */
+	left: 0;
+	/* distancia desde el borde izquierdo de la pantalla */
+	bottom: 0;
+	/* distancia desde el borde inferior de la pantalla */
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*----------FOOTER----------*/
