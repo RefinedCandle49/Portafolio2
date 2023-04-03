@@ -2,6 +2,16 @@ html{
     font-size: 10px;
 }
 
+::-moz-selection { /* Code for Firefox */
+	
+	background: rgba(131, 51, 155, 0.548);
+  }
+  
+  ::selection {
+	
+	background-color: #3333334d;
+  }
+
 body {
     margin: 0;
     padding: 0;
@@ -108,8 +118,8 @@ nav a {
 
 
 .cv-button a:hover {
-	background-color: #6c66a5d8;
-	box-shadow: 0px 1px 15px #6c66a5c4;
+	background-color: #333;
+	box-shadow: 0px 1px 15px #333;
 	color: #fff;
 }
 
