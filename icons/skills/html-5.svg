@@ -1,8 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="px" height="px" viewBox="0 0 400 400" version="1.1">
-<g id="surface1">
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(89.411765%,30.196078%,14.901961%);fill-opacity:1;" d="M 75 350 L 50 37.5 L 350 37.5 L 325 350 L 200 387.5 Z M 75 350 "/>
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(94.509804%,39.607843%,16.078431%);fill-opacity:1;" d="M 325 62.5 L 200 62.5 L 200 368.75 L 300 337.5 Z M 325 62.5 "/>
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 118.75 218.75 L 106.25 100 L 300 100 L 293.75 137.5 L 143.75 137.5 L 150 181.25 L 287.5 181.25 L 275 300 L 200 325 L 125 300 L 118.75 237.5 L 156.25 237.5 L 162.5 268.75 L 200 281.25 L 237.5 268.75 L 243.75 218.75 Z M 118.75 218.75 "/>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="px"
+   height="px"
+   viewBox="0 0 400 400"
+   version="1.1"
+   id="svg118"
+   sodipodi:docname="html-5.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs122" />
+  <sodipodi:namedview
+     id="namedview120"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.4796209"
+     inkscape:cx="116.24599"
+     inkscape:cy="183.15502"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg118" />
+  <g
+     id="surface1"
+     transform="matrix(1.1338824,0,0,1.1338824,-26.776484,-40.450015)">
+    <path
+       style="fill:#e34c23;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="M 75,350 50,37.5 H 350 L 325,350 200,387.5 Z m 0,0"
+       id="path111" />
+    <path
+       style="fill:#f06328;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="M 325,62.5 H 200 V 368.75 L 300,337.5 Z m 0,0"
+       id="path113" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="M 118.75,218.75 106.25,100 H 300 l -6.25,37.5 h -150 L 150,181.25 H 287.5 L 275,300 l -75,25 -75,-25 -6.25,-62.5 h 37.5 l 6.25,31.25 37.5,12.5 37.5,-12.5 6.25,-50 z m 0,0"
+       id="path115" />
+  </g>
 </svg>
