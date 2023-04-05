@@ -172,6 +172,23 @@ nav a {
 }
 
 .buttons {
+	display: flex;
+	margin: auto;
+	text-align: center;
+	justify-content: center;
+	margin-bottom: 2.5rem;
+	align-items: center;
+}
+
+.buttons > div{
+	
+}
+
+.buttons > div > div > a > img{
+	width: 40%;
+}
+
+.contact-buttons{
 	display: grid;
 	grid-template-columns: auto auto auto;
 	margin: auto;
@@ -180,10 +197,10 @@ nav a {
 	margin-bottom: 2.5rem;
 }
 
-.contact-information .buttons {
+.contact-information .contact-buttons {
 	margin: 0;
 	text-align: left;
-	width: 40%;
+	width: 35%;
 }
 
 
