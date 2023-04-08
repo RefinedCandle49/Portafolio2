@@ -525,6 +525,18 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
+	.about-me-grid{
+		display: grid;
+		grid-template-columns: auto;
+		height: auto;
+		text-align: center;
+	}
+	
+
+	.home-image{
+		width: 50%;
+	}
+
 	.project-container>div {
 		flex-wrap: wrap;
 		justify-content: center;
