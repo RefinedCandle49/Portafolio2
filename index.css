@@ -15,6 +15,23 @@ html{
 	}
 }
 
+@media screen and (max-width: 1024px) {
+	.project-container > div{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.contact-grid{
+		display: grid;
+		grid-template-columns: 10% 10%;
+		align-items: center;
+		height: 75vh;
+		padding-left: 20rem;
+	}
+}
+
+
+
 ::-moz-selection { /* Code for Firefox */
 	
 	background: rgba(131, 51, 155, 0.548);
@@ -207,8 +224,14 @@ nav a {
 	align-items: center;
 }
 
+.buttons > div {
+	width: 100%;
+	
+}
+
 .buttons > div > div > img{
-	width: 35%;
+	width: 5rem;
+	height: auto;
 	transition: 0.5s;
 }
 
@@ -310,8 +333,7 @@ nav a {
 	align-items: center;
 	border-radius: 10px;
 	box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.1);
-	height: 60rem;
-	
+	min-height: 60rem;
 }
 
 .reverse{
@@ -423,8 +445,6 @@ nav a {
 	align-items: center;
 	height: 75vh;
 	padding-left: 20rem;
-	
-	
 }
 
 .contact-information h2{
