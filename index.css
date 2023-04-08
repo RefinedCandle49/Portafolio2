@@ -3,32 +3,9 @@ html{
 	scroll-behavior: smooth;
 }
 
-@media screen and (max-width: 1600px) {
-	html{
-		font-size: 8px;
-	}
-  }
 
-@media screen and (max-width: 1366px) {
-	html {
-		font-size: 7px;
-	}
-}
 
-@media screen and (max-width: 1024px) {
-	.project-container > div{
-		flex-wrap: wrap;
-		justify-content: center;
-	}
 
-	.contact-grid{
-		display: grid;
-		grid-template-columns: 10% 10%;
-		align-items: center;
-		height: 75vh;
-		padding-left: 20rem;
-	}
-}
 
 
 
@@ -439,13 +416,16 @@ nav a {
 	font-weight: 600;
 }
 
-.contact-grid{
-	display: grid;
-	grid-template-columns: 50% 50%;
-	align-items: center;
-	height: 75vh;
-	padding-left: 20rem;
-}
+	.contact-grid{
+		display: grid;
+		grid-template-columns: 50% 50%;
+		align-items: center;
+		height: 75vh;
+		padding-left: 20rem;
+	}
+
+
+
 
 .contact-information h2{
 	font-size: 7.5rem;
@@ -531,3 +511,47 @@ footer {
 }
 
 /*----------FOOTER----------*/
+
+@media screen and (max-width: 1600px) {
+	html{
+		font-size: 8px;
+	}
+  }
+
+@media screen and (max-width: 1366px) {
+	html {
+		font-size: 7px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.project-container>div {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.contact-grid{
+		display: grid;
+		grid-template-columns: auto;
+		justify-content: space-around;
+		padding-left: 0;
+	}
+
+	.contact-information{
+		text-align: center;
+	}
+
+	.contact-information .contact-buttons {
+		margin: auto;
+		text-align: center;
+		width: 35%;
+	}
+
+	.form{
+		text-align: center;	
+	}
+
+	form{
+		margin: auto;
+	}
+}
