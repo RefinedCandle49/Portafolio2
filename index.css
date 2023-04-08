@@ -296,6 +296,8 @@ nav a {
 	align-items: center;
 	border-radius: 10px;
 	box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.1);
+	height: 60rem;
+	
 }
 
 .reverse{
@@ -312,9 +314,14 @@ nav a {
 
 .project-container > div > div >img{
 	/*width: 110rem;*/
-	width: 110rem;
+	max-width: 95%;
+	height: auto;
 	margin: 2rem 2rem 2rem 2rem;
 	border-radius: 15px;
+}
+
+.project-text{
+	width: 80rem
 }
 
 .tags{
