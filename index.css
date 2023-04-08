@@ -37,6 +37,7 @@ header {
 
 #header-title {
 	font-size: 2.5rem;
+	font-weight: 600;
 }
 
 #header-title a{
@@ -53,7 +54,7 @@ nav ul {
 nav li {
 	text-transform: uppercase;
     font-size: 1.6rem;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 nav a:hover{
@@ -72,7 +73,11 @@ nav a {
 
 /*----------ABOUT ME----------*/
 .about-me{
-	height: 100vh;
+	height: 85vh;
+	margin-left: 15rem;
+	margin-right: 15rem;
+	margin-top: 10rem;
+	
 }
 
 .about-me-grid {
@@ -81,29 +86,33 @@ nav a {
 	text-align: left;
 	font-size: 2.3rem;
 	/*background-color: #e9e9e9;*/
+	align-items: center;
+	gap: 5rem;
 }
 
 .about-me-titles h1{
 	font-size: 10rem;
 	letter-spacing: 15px;
-	margin: 25rem auto 0 8rem;
+	margin: 0;
+	font-weight: 600;
 }
 
 .about-me-titles h2{
 	font-size: 4rem;
 	letter-spacing: 8px;
-	margin: 0 auto 0 8rem;
+	margin: 0;
+	font-weight: 500;
 }
 
 .about-me-description{
-	margin: 0 15rem 0rem 8rem;
+	margin: 0;
 }
 /*----------ABOUT ME----------*/
 
 .home-image {
-	width: 80%;
+	width: 90%;
 	border-radius: 50%;
-	margin: 8rem 0 0 0;
+	
 }
 
 /*
@@ -148,7 +157,7 @@ nav a {
 	border: none;
 	text-align: center;
 	white-space: nowrap;
-	
+	font-weight: 600;
 }
 
 
@@ -159,7 +168,6 @@ nav a {
 }
 
 .cv-button a {
-	
 	padding: 1.3em 3em;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -173,7 +181,6 @@ nav a {
 	cursor: pointer;
 	outline: none;
 	text-decoration: none;
-
 }
 
 .buttons {
@@ -250,7 +257,7 @@ nav a {
 	padding: 5px 0;
 	position: absolute;
 	z-index: 1;
-	bottom: 100%;
+	bottom: 94%;
 	left: 50%;
 	margin-left: -60px;
 	opacity: 0;
@@ -297,12 +304,13 @@ nav a {
 
 .project-container > div > div >p{
 	color: #767676;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 1.8rem;
 	padding: 0rem 2.5rem;
 }
 
 .project-container > div > div >img{
+	/*width: 110rem;*/
 	width: 110rem;
 	margin: 2rem 2rem 2rem 2rem;
 	border-radius: 15px;
@@ -318,7 +326,10 @@ nav a {
 	box-shadow: 0 0 10px rgba(0,0,0,.1);
 	padding: 1rem;
 	font-size: 1.5rem;
-	font-weight:bold;
+	font-weight: bold;
+	-webkit-user-select: none; /* Safari */
+	-ms-user-select: none; /* IE 10 and IE 11 */
+	user-select: none; /* Standard syntax */
 }
 /*----------PROJECTS----------*/
 
@@ -342,6 +353,7 @@ nav a {
 	font-size: 4rem;
 	color: black;
 	letter-spacing: 4px;
+	font-weight: 600;
 }
 
 .contact-grid{
@@ -351,15 +363,18 @@ nav a {
 	height: 75vh;
 	padding-left: 20rem;
 	
+	
 }
 
 .contact-information h2{
 	font-size: 7.5rem;
 	margin: 0;
+	font-weight: 600;
 }
 
 .contact-information h3{
 	font-size: 3.5rem;
+	font-weight: 600;
 }
 
 .contact-information p img{
