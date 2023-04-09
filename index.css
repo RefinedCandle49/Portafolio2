@@ -433,6 +433,7 @@ nav a {
 	color: black;
 	letter-spacing: 4px;
 	font-weight: 600;
+	padding-left: 4px;
 }
 .contact-grid {
 	display: grid;
