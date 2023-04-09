@@ -557,6 +557,14 @@ footer {
 		width: auto;
 	}
 
+	.about-me-titles h1{
+		padding-left: 15px;
+	}
+
+	.about-me-titles h2{
+		padding-left: 8px;
+	}
+
 	#about-me-grid2{
 		width: 60%;
 		margin: auto;
