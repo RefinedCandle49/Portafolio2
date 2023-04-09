@@ -622,6 +622,14 @@ footer {
 		display: none;
 	}
 
+	.about-me-titles h1{
+		font-size: 7rem;
+	}
+
+	.about-me-titles h2{
+		font-size: 3rem;
+	}
+
 	.project-container > div{
 		margin: 5rem 2.5rem;
 	}
@@ -644,10 +652,33 @@ footer {
 		margin-bottom: 2.5rem;
 		align-items: center;
 	}
-	
-	
-	.button-grid > div {
+
+
+	.button-grid>div {
 		width: 100%;
 	}
-	
+
+	form{
+		margin-top: 5rem;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	textarea {
+		display: block;
+		width: 90%;
+		margin: auto;
+		padding: 1rem 1rem;
+		margin-bottom: 2rem;
+		margin-top: 0.5rem;
+		font-size: 1.6rem;
+		border-radius: 4px;
+		border: 1px solid #ccc;
+		font-family: 'Montserrat', sans-serif;
+		resize: none;
+	}
+
+	button[type="submit"] {
+		margin: auto;
+	}
 }
