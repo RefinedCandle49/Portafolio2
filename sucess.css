@@ -1,0 +1,118 @@
+/*----------SUCESS-PAGE----------*/
+html{
+    font-size: 10px;
+	scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    font-size: 2.4rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.container >div > p {
+    border-radius: 10px;
+	box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.404);
+    padding: 1rem;
+    margin: 1rem 5rem;
+    background-color: #333333;
+    color: white;
+    font-weight: 500;
+}
+
+.back-link {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+}
+
+svg{
+    width: 7rem; height: 7rem;
+}
+
+.back-button {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: none;
+	text-align: center;
+	white-space: nowrap;
+	font-weight: 600;
+}
+
+.back-button a:hover {
+	background-color: #333;
+	box-shadow: 0px 1px 15px #333;
+	color: #fff;
+}
+
+.back-button a {
+	padding: 1em 2.5em;
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	color: #000;
+	background-color: rgba(0, 0, 0, 0.164);
+	border: none;
+	border-radius: 45px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+}
+
+/*----------SUCESS-PAGE----------*/
+
+footer {
+	color: black;
+	/* color de texto del footer */
+	padding: 15px;
+	/* espacio de relleno interno del footer */
+	font-size: 14px;
+	/* tamaño de fuente del footer */
+	text-align: center;
+	/* alineación del contenido del footer */
+	left: 0;
+	/* distancia desde el borde izquierdo de la pantalla */
+	bottom: 0;
+	/* distancia desde el borde inferior de la pantalla */
+	font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    html {
+        font-size: 18px;
+    }
+}
