@@ -605,6 +605,10 @@ footer {
 	form{
 		margin: auto;
 	}
+
+	.contact-information .contact-buttons{
+		justify-content: center;
+	}
 }
 
 @media screen and (max-width: 800px) {
