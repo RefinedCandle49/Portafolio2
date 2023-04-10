@@ -3,12 +3,6 @@ html{
 	scroll-behavior: smooth;
 }
 
-
-
-
-
-
-
 ::-moz-selection { /* Code for Firefox */
 	
 	background: rgba(131, 51, 155, 0.548);
