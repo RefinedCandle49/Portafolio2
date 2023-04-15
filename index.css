@@ -603,6 +603,10 @@ footer {
 	.contact-information .contact-buttons{
 		justify-content: center;
 	}
+
+	button[type="submit"] {
+		margin: auto;
+	}
 }
 
 @media screen and (max-width: 800px) {
@@ -683,9 +687,5 @@ footer {
 		border: 1px solid #ccc;
 		font-family: 'Montserrat', sans-serif;
 		resize: none;
-	}
-
-	button[type="submit"] {
-		margin: auto;
 	}
 }
